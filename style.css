@@ -6,10 +6,12 @@
     padding: 0;
 }
 /* Estilos CSS para o seu site */
+
+
 body {
     margin: 0;
     padding: 0;
-    background-image: url(img/cantina-foto2.png);
+    background-image: url(img/cantina-foto10.webp);
 }
 
 header {
@@ -31,23 +33,25 @@ section {
     margin-bottom: 20px;
 }
 
-h2 {
-    color: #333;
-}
-
-ul {
+ul.product-list {
     list-style-type: none;
     padding: 0;
+    display: flex; /* Exibe os produtos em uma linha */
+    flex-wrap: wrap; /* Quebra para a próxima linha quando não há espaço suficiente */
+    justify-content: space-between; /* Espaço entre os produtos */
 }
 
-li {
+li.product {
+    display: inline-block;
+    width: calc(100% - 10px); /* Largura para dois produtos em uma linha com espaço */
     margin-bottom: 10px;
+    box-sizing: border-box; /* Inclui margens no tamanho total */
 }
 
 button {
     background-color: #333;
     color: #fff;
-    padding: 50px 1px;
+    padding: 10px;
     border: none;
     cursor: pointer;
 }
@@ -56,16 +60,25 @@ button:hover {
     background-color: #555;
 }
 
+.protudos-texto {
+    font-size: 50px;
+}
+
 .fundo-cantina {
     background-color:#fff;
     color: #fff;
     text-align: center;
     padding: 1rem 0;
 }
-
 .Cantina {
     color: black;
     font-size: 50px;
+}
+
+.doguinho-cantina {
+    list-style: none;
+    display: flex;
+    width: 140px;
 }
 
 .produtos-style h2 {
@@ -74,19 +87,32 @@ button:hover {
     padding: 15px;
     color: black;
 }
-
-.doguinho {
-    transform: scaleX(-1);
-    width: 140px;
-}
-.doguinho2 {
-    margin: auto;
-    text-align: right;
-}
-
 .sushi-1 {
+    text-align: center;
     font-size: 60px;
 }
 .sushi-preco {
     font-size: 35px;
+    text-align: center;
+}
+
+.add-to-cart {
+    font-size: 40px;
+    text-align: center;
+}
+
+.torta-de-caramelo {
+    text-align: center;
+    font-size: 60px;
+}
+
+.sanduiche-1 {
+    text-align: center;
+    font-size: 60px;
+}
+
+.carinho-de-compras {
+    font-size: 45px;
+    text-align: center;
+    color: black;
 }
