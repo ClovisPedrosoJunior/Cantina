@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 
 *{
     font-family: 'Pixelify Sans', cursive;
@@ -49,15 +50,18 @@ li.product {
 }
 
 button {
-    background-color: #333;
+    border-radius: 17px;
+    background-color: #e4a32b;
     color: #fff;
     padding: 10px;
     border: none;
     cursor: pointer;
+    margin: 25px;
+    position: top;
 }
 
 button:hover {
-    background-color: #555;
+    background-color: #e46c35;
 }
 
 .protudos-texto {
@@ -76,9 +80,8 @@ button:hover {
 }
 
 .doguinho-cantina {
-    list-style: none;
     display: flex;
-    width: 140px;
+    text-align: right;
 }
 
 .produtos-style h2 {
@@ -87,13 +90,15 @@ button:hover {
     padding: 15px;
     color: black;
 }
-.sushi-1 {
+.cafezinho-1 {
     text-align: center;
     font-size: 60px;
+
 }
-.sushi-preco {
+.cafezinho-preco {
     font-size: 35px;
     text-align: center;
+    font-family: 'Righteous', sans-serif;
 }
 
 .add-to-cart {
@@ -101,14 +106,41 @@ button:hover {
     text-align: center;
 }
 
-.torta-de-caramelo {
+.caramelo-preco {
+    padding: 15px;
+    font-family: 'Righteous', sans-serif;
+    font-size: 35px;
+    text-align: center;
+}
+
+.caramelo-1{
     text-align: center;
     font-size: 60px;
+}
+
+.sanduiche-preco {
+    font-family: 'Righteous', sans-serif;
+    padding: 15px;
+    font-size: 35px;
+    text-align: center;
 }
 
 .sanduiche-1 {
     text-align: center;
     font-size: 60px;
+}
+
+.espagueti-preco {
+    font-family: 'Righteous', sans-serif;
+    padding: 15px;
+    font-size: 35px;
+    text-align: center;
+}
+
+.espagueti-1 {
+    font-size: 60px;
+    text-align: center;
+
 }
 
 .carinho-de-compras {
